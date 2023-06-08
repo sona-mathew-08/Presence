@@ -43,7 +43,7 @@ const Landing = () => {
      <section id="choice" className="py-10 bg-gray-800 relative">
      <div className="mt-8 text-gray-100 text-center">
        
-       <div className="flex items-center justify-center mt-12 gap-10 flex-wrap">
+       <div className="flex items-center justify-center mt-40 mb-40 gap-10 flex-wrap">
          {choices?.map((choice, i) => (
            <div
              key={i}

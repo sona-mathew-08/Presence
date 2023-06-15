@@ -5,7 +5,8 @@ module.exports = {
     ],
     theme: {
         colors:{
-          navblue:'#0891B2'  
+          navblue:'#0891B2',
+          footgray:'#1F2937'  
         },
       extend: {
         fontFamily: {

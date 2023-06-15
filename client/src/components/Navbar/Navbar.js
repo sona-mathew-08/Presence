@@ -4,14 +4,18 @@ import React, { useState } from 'react'
 const Navbar = () => {
     let Links =[
       {name:"HOME",link:"/"},
-      {name:"SERVICE",link:"/"},
-      {name:"ABOUT",link:"/"},
-      {name:"BLOG'S",link:"/"},
+      // {name:"SERVICE",link:"/"},
+      // {name:"ABOUT",link:"/"},
+      {name:"ATTENDANCE",link:"/"},
       {name:"CONTACT",link:"/"},
+      {name:"LOGIN",link:"/login"},
+      {name:"SIGN UP",link:"/signup"},
+
+
     ];
     let [open,setOpen]=useState(false);
   return (
-    <div className='shadow-md w-full fixed top-0 left-0'>
+    <div className='shadow-md w-full fixed top-0 left-0' style={{zIndex:"2"}}>
       <div className='md:flex items-center justify-between bg-black py-4 md:px-10 px-7'>
       <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-cyan-600'>

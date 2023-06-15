@@ -1,0 +1,12 @@
+footer {
+    padding: 1rem 0;
+    background: #1F2937;
+    text-align: center;
+  }
+  .social, .copyright {
+    margin: 1rem;
+  }
+  
+  .social li {
+    display: inline-block;
+  }

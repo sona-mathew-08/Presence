@@ -1,5 +1,19 @@
+
 .bg{
   background-image: url('./assets/images/bg2.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+.bg2{
+  /* background-image: url('./assets/images/bg5.png');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  min-height :720px;
+  background-color: #001122;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footgray{
+  background-color: #1F2937;
 }

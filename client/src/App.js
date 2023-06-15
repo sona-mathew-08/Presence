@@ -25,6 +25,9 @@ import Home from './pages/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import Login from './pages/Login/Login';
 import SignUp from './pages/SignUp/SignUp';
+import Footer from './components/Footer/Footer';
+import TeacherUpload from './pages/TecaherUpload/TeacherUpload';
+import StudentUpload from './pages/StudentUpload/StudentUpload';
 
 function Layout() {
   return (
@@ -32,7 +35,7 @@ function Layout() {
     <>
       <Navbar />
       <Outlet />
-      {/* <Footer /> */}
+      <Footer/>
 
     </>
 
@@ -53,6 +56,14 @@ const router = createBrowserRouter([
       //   path:"/api/upload",
       //   element:<Upload/>
       // },
+      {
+        path:"teacherupload",
+        element:<TeacherUpload/>
+      },
+      {
+        path:"studentupload",
+        element:<StudentUpload/>
+      }
     
    ],
    

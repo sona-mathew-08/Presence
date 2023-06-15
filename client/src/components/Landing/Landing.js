@@ -21,7 +21,7 @@ const Landing = () => {
       id="home"
       className="min-h-screen flex py-10 md:flex-row flex-col items-center bg"
     >
-      <div className="flex-1 flex items-center justify-center ">
+      <div className="flex-1 flex items-center justify-center " style={{zIndex:"1"}}>
         <Lottie animationData={Face}/>
       </div>
       <div className="flex-1">
